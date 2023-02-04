@@ -21,9 +21,9 @@ public class StringsAndThings {
 
         for (int i = 1; i < name.length(); i++) {
             if (name.charAt(i) == ' ' && (name.charAt(i - 1) == 'y' || name.charAt(i - 1) == 'z')) {
-                //System.out.print(word.charAt(i - 1) + " ");
+
                 count++;
-                //System.out.println(count);
+
             }
         }
         return count;
